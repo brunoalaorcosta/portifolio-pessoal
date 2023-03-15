@@ -5,192 +5,231 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Pessoal</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="estilomediaquery.css">
-    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style-mediaquery.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
+    <title>Portfolio Pessoal</title>
 </head>
 
 <body>
-    <header>
-        <nav class="menuIniciar">
-            <ul class="linksMenu-cabcalho">
-                <li class="linksMenu">
-                    <a class="linksMenu" href="#sobre" target="_self"> Sobre Mim</a>
-                </li>
-                <li class="linksMenu">
-                    <a class="linksMenu" href="#skills" target="_self"> Skills</a>
-                </li>
-                <li class="linksMenu">
-                    <a class="linksMenu" href="#formacao" target="_self"> Formação</a>
-                </li>
-                <li class="linksMenu">
-                    <a class="linksMenu" href="#projetos" target="_self"> Projetos</a>
-                </li>
-                <li class="linksMenu">
-                    <a class="linksMenu" href="#contato" target="_self"> Contato</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="principal">
-            <div class="textoPrincipal">
-                <h1 class="textoOlamundo">Olá Mundo, <br>Eu sou Bruno Costa Desenvolvedor Front-End </h1>
-                <h3>Front End Developer | HTML | CSS | Javascript | React | Git | Github .</h3>
-                <ul class="listaPrincipal">
-                    <li class="linksTextoPrincipal">
-                        <a href="https://github.com/brunoalaorcosta" target="_blank"> GitHub</a> <span
-                            class="material-symbols-outlined">
-                            arrow_outward
-                        </span>
-                    </li>
-                    <li class="linksTextoPrincipal">
-                        <a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a> <span
-                            class="material-symbols-outlined">
-                            arrow_outward
-                        </span>
-                    </li>
-                    <li class="linksTextoPrincipal">
-                        <a href="imagens/Curriculum - Bruno Alaor Costa.pdf" download="Currículo-Bruno"
-                            target="_blank">Currículo</a> <span class="material-symbols-outlined">
-                            arrow_outward
-                        </span>
-                    </li>
+    <div class="tudo">
+        <section class="menu">
+            <nav>
+                <ul class="menu-list">
+                    <li class="menu-list-item"><a href="#sobremim">Sobre mim</a></li>
+                    <li class="menu-list-item"><a href="#skills">Skills</a></li>
+                    <li class="menu-list-item"><a href="#formacao">Formação</a></li>
+                    <li class="menu-list-item"><a href="#xp">Projetos</a></li>
+                    <li class="menu-list-item"><a href="#contato">Contato</a></li>
                 </ul>
-            </div>
-            <div class="fotoPrincipal">
-                <img id="fotoPrincipal-img" src="imagens/fotoPrincipal.jpg" alt="foto">
-            </div>
-        </div>
-        <div id="sobre" class="sobreMim-texto">
-            <h2 class="tituloSobremin" id="sobreMin">Sobre Mim</h2>
-            <p class="textoSobremin">Sou Bruno Alaor Costa, tenho 31 anos,casado e pai de uma menina, atualmente estou
-                cursando Tecnologia da Informação.
-                Profissional altamente capacitado para trabalhar em equipe, dinâmico, facilidade de aprendizado e de bom
-                relacionamento interpessoal, dedicado às funções e focado em resultados. Organizado, responsável e com
-                facilidade em adaptar-se às mudanças . Tenho conhecimentos técnicos em Javascript,React, SQL, HTML e
-                CSS. </p>
-        </div>
-        <h2 id="skills" class="tituloSkills"> Skills</h2>
-        <div class="Skills">
-            <div class="divSkills"> <img class="imagemSkills" src="imagens/html.png" alt="logo-html">
-                <p class="legendasSkills">HTML</p>
-            </div>
-            <div class="divSkills"> <img class="imagemSkills" src="imagens/css.png" alt="logo-css">
-                <p class="legendasSkills">CSS</p>
-            </div>
-            <div class="divSkills"><img class="imagemSkills" src="imagens/javascript.png" alt="logo-js">
-                <p class="legendasSkills">Javascript</p>
-            </div>
-            <div class="divSkills"><img class="imagemSkills" src="imagens/react.png" alt="logo-react">
-                <p class="legendasSkills">React</p>
-            </div>
-            <div class="divSkills"><img class="imagemSkills" src="imagens/git.png" alt="logo-git">
-                <p class="legendasSkills">GIT</p>
-            </div>
-        </div>
-        <h2 id="formacao" class="textoFormacao"> Formação acadêmica</h2>
-        <div class="formacao">
-            <div class="divFormacao">
-                <img class="imagemFormacao" src="imagens/logo - univesp.png" alt="logo-univesp">
-                <p class="legendasFormacao">UVIVESP - Cursando Tecnologia da Informacção</p>
-            </div>
-            <div class="divFormacao">
-                <img class="imagemFormacao" src="imagens/logo-one (1).png" alt="logo-one">
-                <p class="legendasFormacao">Alura+Oracle - FrontEnd Developer</p>
-            </div>
-        </div>
-        <h2 id="projetos" class="textoProjetos">Projetos</h2>
-        <div class="projeto1">
-            <div class="divImagem">
-                <img class="imagemProjeto" src="imagens/proejto-android.PNG" alt="">
-            </div>
-            <div class="infoProjeto">
-                <h2 class="subtextoProjeto">Landing Page </h2>
-                <a href="https://github.com/brunoalaorcosta/projeto-android" target="_blank"> <button
-                        class="repositorio" type="submit">Repositório</button></a>
-                <a href="https://brunoalaorcosta.github.io/projeto-android/" target="_blank"> <button class="demo"
-                        type="submit">Ver Demo</button></a>
-            </div>
-        </div>
-        <div class="projeto2">
-            <div class="divImagem">
-                <img class="imagemProjeto" src="imagens/projeto-calimc.PNG" alt="">
-            </div>
-            <div class="infoProjeto">
-                <h2 class="subtextoProjeto">Calculadora de IMC</h2>
-                <a href="https://github.com/brunoalaorcosta/projeto-imc" target="_blank"> <button class="repositorio"
-                        type="submit">Repositório</button></a>
-                <a href="https://brunoalaorcosta.github.io/projeto-imc/" target="_blank"> <button class="demo"
-                        type="submit">Ver Demo</button></a>
-            </div>
-        </div>
-        <div class="projeto3">
-            <div class="divImagem">
-                <img class="imagemProjeto" src="imagens/projeto-cronometro.PNG" alt="">
-            </div>
-            <div class="infoProjeto">
-                <h2 class="subtextoProjeto">Cronômetro</h2>
-                <a href="https://github.com/brunoalaorcosta/cronometro" target="_blank"> <button class="repositorio"
-                        type="submit">Repositório</button></a>
-                <a href="https://brunoalaorcosta.github.io/cronometro/" target="_blank"> <button class="demo"
-                        type="submit">Ver Demo</button></a>
-            </div>
-        </div>
-        <div class="projeto4">
-            <div class="divImagem">
-                <img class="imagemProjeto" src="imagens/projeto-encriptador.PNG" alt="">
-            </div>
-            <div class="infoProjeto">
-                <h2 class="subtextoProjeto">Encriptador de Textos</h2>
-                <a href="https://github.com/brunoalaorcosta/projeto-encriptador" target="_blank"> <button
-                        class="repositorio" type="submit">Repositório</button></a>
-                <a href="https://brunoalaorcosta.github.io/projeto-encriptador/"> <button class="demo" type="submit">Ver
-                        Demo</button></a>
-            </div>
-        </div>
-        <div id="contato" class="contato">
-            <div class="conteudoContato">
-                <h2 class="textoContato">Contato</h2>
-                <p class="paragrafoContato">Preencha o formulário abaixo, entrarei em contato com você o mais breve
-                    possível.</p>
-            </div>
-            <form class="formContato" action="https://formsubmit.co/brunoalaorcosta1990@outlook.com" method="POST">
-                <label for="iname">
-                    <input class="inputContato" type="text" name="name" id="iname" placeholder="Nome" required>
-                </label>
-                <label for="iemail">
-                    <input class="inputContato" type="email" name="email" id="iemail" placeholder="E-mail" required>
-                </label>
-                <label for="iassunto">
-                    <input class="inputContato" type="text" name="assunto" id="iassunto" placeholder="Assunto" required>
-                </label>
-                <label for="imensagem">
-                    <textarea class="textareaContato" name="mensagem" id="imensagem" cols="20" rows="4"
-                        placeholder="Mensagem" required></textarea>
-                </label>
-                <div class="btnForm">
-                    <button class="botaoForm" id="botaoForm" type="submit">Enviar</button>
+            </nav>
+        </section>
+
+        <section class="title">
+            <div class="title-div">
+                <img class="profile" src="assets/fotoPrincipal.jpg">
+                <div class="title-container" id="#sobremim">
+                    <h2>Olá Mundo,
+                        Eu sou Bruno Costa Desenvolvedor Front-End</h2>
+                    <h3>Front End Developer | HTML | CSS | Javascript | React | Git | Github .</h3>
+                    <ul>
+                        <li><a href="https://github.com/brunoalaorcosta" target="_blank"> GitHub <span
+                                    class="material-symbols-outlined">
+                                    arrow_outward
+                                </span> </a></li>
+                        <li><a href="https://www.linkedin.com/feed/" target="_blank">Linkedin <span
+                                    class="material-symbols-outlined">
+                                    arrow_outward
+                                </span> </a></li>
+                        <li><a href="assets/Curriculum - Bruno Alaor Costa.pdf" download="Currículo-Bruno"
+                                target="_blank">Currículo <span class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a></li>
+                    </ul>
                 </div>
-            </form>
-        </div>
-        <footer class="footer">
-            <p>Projeto desenvolvido by Bruno Costa</p>
-            <div class="figurasFooter">
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-container">
+                <h3>Sobre mim</h3>
+                <p>Olá, meu nome é Bruno Alaor Costa, sou um profissional de Tecnologia da Informação apaixonado por
+                    desenvolvimento de software e soluções tecnológicas. Tenho 32 anos, sou casado e pai de uma menina
+                    encantadora. Atualmente, estou buscando novas oportunidades para aplicar minha experiência e
+                    habilidades.
+
+                    Com uma vasta experiência em trabalhar em equipe, sou altamente capacitado para colaborar em
+                    projetos desafiadores e complexos. Meu estilo de trabalho é dinâmico, com facilidade de aprendizado
+                    e focado em resultados. Sempre dedicado às funções e projetos que me são atribuídos, busco
+                    constantemente aprimorar minhas habilidades para alcançar as metas estabelecidas.
+
+                    Sou uma pessoa organizada e responsável, capaz de trabalhar com eficiência em ambientes de pressão e
+                    com prazos apertados. Adapto-me facilmente às mudanças e estou sempre em busca de novas soluções
+                    para desafios complexos.
+
+                    Tenho conhecimentos técnicos avançados em Javascript, React, SQL, HTML e CSS, além de outras
+                    tecnologias relevantes para o mercado atual. Estou sempre em busca de aprimorar meus conhecimentos e
+                    habilidades, para contribuir ainda mais com projetos desafiadores </p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h3 class="section-title" id="skills">Skills</h3>
+            <div class="skills-line">
+                <div class="skills-box">
+                    <ul>
+                        <li><img class="imagemSkills" src="assets/html.png"></li>
+                        <li> Html </li>
+                    </ul>
+                </div>
+
+
+                <div class="skills-box">
+                    <ul>
+                        <li> <img class="imagemSkills" src="assets/css.png" alt=""></li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skills-box">
+                    <ul>
+                        <li> <img class="imagemSkills" src="assets/javascript.png" alt=""></li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+
+                <div class="skills-box">
+                    <ul>
+                        <li><img class="imagemSkills" src="assets/react.png" alt=""></li>
+                        <li>React</li>
+                    </ul>
+                </div>
+
+                <div class="skills-box">
+                    <ul>
+                        <li> <img class="imagemSkills" src="assets/git.png" alt=""> </li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+
+        </section>
+
+        <section class="academic">
+            <h2 class="section-title" id="formacao">Formação acadêmica</h2>
+            <div class="courses">
+                <div class="courses-box">
+                    <ul>
+                        <li class="course-img"><img class="imagemFormacao" src="assets/logo-univesp-branco.png"></li>
+                        <li class="course-title">
+                            <h4>Univesp</h4>
+                        </li>
+                        <li class="course-subtitle">
+                            <p>Cursando Tecnologia da Informação</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="courses-box">
+                    <ul>
+                        <li class="course-img"><img class="imagemFormacao" src="assets/logo-one.png"></li>
+                        <li class="course-title">
+                            <h4>Alura+Oracle</h4>
+                        </li>
+                        <li class="course-subtitle">
+                            <p>Front End Developer</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2 class="section-title" id="xp">Projetos</h2>
+            <div class="experiencia-box">
+                <img src="assets/proejto-android.PNG">
+                <div class="info-container">
+                    <h2>Landing Page</h2>
+                    <div class="experience-description">
+                        <span class="experience-repo"><a href="https://github.com/brunoalaorcosta/projeto-android" target="_blank"><button>Repositório</button></a></span>
+                        <span class="experience-demo"><a href="https://brunoalaorcosta.github.io/projeto-android/" target="_blank"><button>Ver
+                                    demo</button></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experiencia-box">
+                <img src="assets/projeto-calimc.PNG">
+                <div class="info-container">
+                    <h2>Calculadora de IMC</h2>
+                    <div class="experience-description">
+                        <span class="experience-repo"><a href="https://github.com/brunoalaorcosta/projeto-imc" target="_blank"><button>Repositório</button></a></span>
+                        <span class="experience-demo"><a href="https://brunoalaorcosta.github.io/projeto-imc/" target="_blank"><button>Ver
+                                    demo</button></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experiencia-box">
+                <img src="assets/projeto-cronometro.PNG">
+                <div class="info-container">
+                    <h2>Cronômetro</h2>
+                    <div class="experience-description">
+                        <span class="experience-repo"><a href="https://github.com/brunoalaorcosta/cronometro" target="_blank"><button>Repositório</button></a></span>
+                        <span class="experience-demo"><a href="https://brunoalaorcosta.github.io/cronometro/" target="_blank"><button>Ver
+                                    demo</button></a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experiencia-box">
+                <img src="assets/projeto-encriptador.PNG">
+                <div class="info-container">
+                    <h2>Encriptador de textos</h2>
+                    <div class="experience-description">
+                        <span class="experience-repo"><a href="https://github.com/brunoalaorcosta/projeto-encriptador" target="_blank"><button>Repositório</button></a></span>
+                        <span class="experience-demo"><a href="https://brunoalaorcosta.github.io/projeto-encriptador/" target="_blank"><button>Ver
+                                    demo</button></a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formcontato">
+            <div id="contato" class="contact">
+                <div class="contact-text">
+                    <h2 class="contact-title">Contato</h2>
+                    <h3 class="contact-subtext">Quer entrar em contato comigo?</h3>
+                    <h3 class="contact-subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido
+                        possível. </h3>
+                    <form class="form" action="https://formsubmit.co/brunoalaorcosta1990@outlook.com" method="POST">
+                        <input class="contato-input" type="text" id="nome" placeholder="Nome">
+
+                        <input class="contato-input" type="text" id="email" placeholder="E-mail">
+
+                        <input class="contato-input" type="text" id="assunto" placeholder="Assunto">
+
+                        <textarea class="contato-textarea" rows="5" cols="40" id="mensagem" name="mensagem"
+                            placeholder="Sua mensagem"></textarea>
+
+                        <button class="contato__botao">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="rodape">
+                <p>Projeto desenvolvido by Bruno Costa</p>
                 <a href="https://github.com/brunoalaorcosta" target="_blank">
-                    <img src="imagens/icon-github.png" alt="logo-github">
+                    <img class="imagemFooter" src="assets/icon-github.png" alt="logo-github">
                 </a>
                 <a href="https://www.linkedin.com/in/brunoalaorcosta/" target="_blank">
-                    <img src="imagens/icon-linkedin.png" alt="logo-linkedi">
+                    <img class="imagemFooter" src="assets/icon-linkedin.png" alt="logo-linkedi">
                 </a>
-
             </div>
-        </footer>
-    </main>
+        </section>
+    </div>
+    <script src="validate"></script>
 </body>
 
 </html>
